@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Introduction.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Intro about my self</title>
+</head>
+<body>
+    <div class="First_part">
+        <p ID="namefirst"> < JP-LYNK, BTECER />
+            <b class="infor" onclick="loadWebsite('Dangnhap.html')">About me</b>
+            <b class="infor" onclick="loadWebsite('https://chat.openai.com/c/283214e8-a932-4134-8be7-4ce90bb88f22')">My Product</b>
+            <b class="infor" onclick="loadWebsite('https://webcoban.vn/html/cach-chen-iframe-khung-trang-web-vao-trang-web.html')">My favourite</b>
+            <b class="infor" onclick="loadWebsite('https://webcoban.vn/css/tai-lieu-hoc-css')">My Job</b>
+        </p>
+    </div>
+    <div id="image-container">
+        <img src="img/6-removebg.png" title="heihi">
+        <div id="backicon">.
+           <a class="icon" id="face"  href="https://fontawesome.com/icons/square-facebook?f=brands&s=solid"><i class="fa-brands fa-square-facebook" style="color: #000000;"></i></a>
+           <a class="icon" id="insta" href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+           <a class="icon" id="twi"href="https://twitter.com/i/flow/single_sign_on"><i class="fa-brands fa-square-twitter" style="color: #000000;"></i></a>
+           <a class="icon" id="mess" href=https://www.messenger.com/t/100040338921323><i class="fa-brands fa-facebook-messenger" style="color: #000000;"></i></a>
+           <a class="icon" id="mess" href=https://shopee.vn/B%C3%A0n-ph%C3%ADm-c%C6%A1-kh%C3%B4ng-d%C3%A2y-MONKA-3075-pro-Red-Switch-M%E1%BA%A1ch-xu%C3%B4i-Led-RGB-nhi%E1%BB%81u-ch%E1%BA%BF-%C4%91%E1%BB%99-c%C3%B3-m%C3%A0n-LED-i.232780266.18890237836><i class="fa-regular fa-keyboard" style="color: #000000;"></i></a>
+        </div>
+    </div>
+    <div class="Last_part">
+          <iframe id="websiteFrame" src="" ></iframe>
+          <script>
+              function loadWebsite(url) {
+                  var websiteFrame = document.getElementById("websiteFrame");
+                  websiteFrame.src = url;
+              }
+          </script>
+    </div>
+
+</body>
+</html>
